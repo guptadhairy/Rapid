@@ -1,9 +1,0 @@
-.rnav{
-     font-size: 2rem;  
-     display: none;
-}
-@media only screen and (max-width: 768px){
-       .rnav{
-              display: inline;
-       }
-}

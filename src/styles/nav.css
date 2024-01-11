@@ -13,10 +13,24 @@
        font-size: 23px;
        padding: 5px;
 }
-
+.rnav{
+       display: none;
+}
+.pnav{
+       border-radius: 10px;
+}
+.bell{
+       display: none;
+}
 @media only screen and (max-width: 768px) {
        .nav{
               display: none;
+       }
+       .rnav{
+              display: inline;
+       }
+       .bell{
+              display: inline;
        }
    }
    

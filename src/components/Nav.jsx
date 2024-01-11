@@ -5,11 +5,13 @@ import "../styles/nav.css";
 import {FaSearch, FaAddressCard, FaRegListAlt, FaRegUser, FaRegBell, FaMobile} from "react-icons/fa";
 import { FiHome } from "react-icons/fi";
 import PhoneNav from './PhoneNav';
+import Bell from './Bell';
 
 
 
 const Nav = () => {
   return (
+    <>
     <div className='nav'>
       <VStack width={"7%"}   display={'flex'} justifyContent={"flex-start"} alignItems={"flex-start"}>
        <VStack gap={"20px"}>
@@ -17,7 +19,7 @@ const Nav = () => {
        <FaSearch fontSize={"20px"}/>
        </VStack>
        <VStack mt={"60px"} gap={"30px"}>
-       <FiHome color='blue' fontSize={"22px"} />
+       <FiHome className='home' color='white' fontSize={"22px"} />
        <FaAddressCard fontSize={"20px"} />
        <FaRegListAlt fontSize={"20px"} />
        <FaRegUser fontSize={"20px"} />
@@ -27,8 +29,14 @@ const Nav = () => {
        <FaMobile fontSize={"20px"} />
        </VStack>
       </VStack>
+    </div>
+    <div className='rnav'>
       <PhoneNav />
     </div>
+    <div className='bell' >
+      <Bell />
+    </div>
+    </>
   )
 }
 
