@@ -1,4 +1,4 @@
-import { HStack } from '@chakra-ui/react'
+
 import React from 'react'
 import Nav from './Nav'
 import Comp1 from './Comp1'
@@ -7,12 +7,12 @@ import Comp3 from './Comp3'
 
 const Home = () => {
        return (
-              <HStack>
+              <div className='responsive'>
                      <Nav />
                      <Comp1 />
                      <Comp2 />
                      <Comp3 />
-              </HStack>
+              </div>
        )
 }
 

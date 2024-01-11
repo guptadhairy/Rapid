@@ -34,11 +34,10 @@ const VerticalStackedBarChart = () => {
       scales: {
         x: {
           stacked: true,
-          display: false,
         },
         y: {
           stacked: true,
-          display: false,
+          
           ticks: {
             callback: (value) => {
               return [0, 100, 200, 300].includes(value) ? value : ''; // Show only specific values
@@ -66,7 +65,7 @@ const VerticalStackedBarChart = () => {
 
   return (
     <div>
-      <canvas id="verticalStackedBarChart" width="400" height="230"></canvas>
+      <canvas id="verticalStackedBarChart" className='chart'></canvas>
     </div>
   );
 };

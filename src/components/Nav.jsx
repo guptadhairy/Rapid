@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import "../styles/nav.css";
 import {FaSearch, FaAddressCard, FaRegListAlt, FaRegUser, FaRegBell, FaMobile} from "react-icons/fa";
 import { FiHome } from "react-icons/fi";
+import PhoneNav from './PhoneNav';
 
 
 
@@ -26,6 +27,7 @@ const Nav = () => {
        <FaMobile fontSize={"20px"} />
        </VStack>
       </VStack>
+      <PhoneNav />
     </div>
   )
 }

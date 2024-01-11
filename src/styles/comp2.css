@@ -1,7 +1,7 @@
 .income{
        height: 100vh;
-       
-       margin-top: -163px;
+       margin-top: 20px;
+       width: 50%;
 }
 .line{
        width: 100%;
@@ -33,3 +33,59 @@
        font-size: 0.72rem;
        margin-top: -12px;
 }
+.rincome{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+}
+.r1income{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+}
+.chart{
+       width: 470px;
+       height: 4000;
+}
+.r2income{
+       display: flex;
+}
+.r3income{
+       /* background-color: bisque; */
+       margin-left: 100px;
+       display: flex;
+       
+}
+@media only screen and (max-width: 768px){
+       .income{
+              width: 100%;
+              /* margin-top: -50px; */
+       }
+       .rincome{
+              width: 70%;
+              margin-left: 0px;
+              margin-top: 10px;
+              flex-direction: column;
+       }
+       .r1income{
+              width: 100%;
+              justify-content: space-between;
+       }
+       .chart{
+              width: 340px;
+              margin-left: -30px;
+       }
+       .r2income{
+              flex-direction: column;
+       }
+       .r3income{
+              margin-left: -20px;
+              width: 170%;
+              justify-content: space-evenly;
+              
+       }
+}
+
+

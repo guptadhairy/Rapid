@@ -4,16 +4,16 @@
        border-radius: 50%;
 }
 .mike{
-       margin-top: -70px;
+       /* margin-top: -70px; */
        min-height: 100vh;
        background-color: #F5F7F8;
-       margin-left: -10px;
+       width: 28%;
 }
 .mikes{
        margin-left: 50px;
 }
 .button{
-       background-color: #525CEB;
+       background-color: blue;
        color: white;
        height: 40px;
        width: 55%;
@@ -41,5 +41,57 @@
        height: 1px;
        color: gray;
        background-color: gray;
+       
+}
+.r3mike{
+       margin-top: -10px;
+}
+.r4mike{
+       font-size: 1rem;
+       font-weight: 3rem;
+}
+@media only screen and (max-width: 768px){
+       .mike{
+         width: 100%;
+         background-color: white;
+       }
+       .rmike{
+              background-color: #F5F7F8;
+              width: 100%;
+              padding: 20px;
+              border-radius: 10px;
+              margin-top: 10px;
+       }
+       .hmike{
+              font-size: 2.4rem;
+              font-weight: bolder;
+              margin-top: -5px;
+       }
+       .r2mike{
+              display: flex;
+              flex-direction: row;
+              gap: 30px;
+       }
+       .r4mike{
+              font-size: 1.5rem;
+       }
+
+       .button{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 0;
+       }
+       .r5{
+              display: none;
+       }
+       .r5mike{
+              background-color: #F5F7F8;
+              padding: 2px 20px 10px 20px; 
+              margin-top: 30px;
+              width: 100%;
+              border-radius: 10px;
+       }
        
 }

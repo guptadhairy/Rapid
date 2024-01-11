@@ -6,3 +6,17 @@
        padding: 10px;
        min-height: 100vh;
 }
+.home{
+       background-color: blue;
+       border-radius: 5px;
+       color: white;
+       font-size: 23px;
+       padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+       .nav{
+              display: none;
+       }
+   }
+   
